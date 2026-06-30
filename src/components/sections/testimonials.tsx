@@ -8,7 +8,7 @@ const ease = [0.25, 0.46, 0.45, 0.94] as const;
 export function Testimonials() {
   return (
     <MotionConfig reducedMotion="user">
-      <section className="flex min-h-svh flex-col justify-center py-20 sm:py-28">
+      <section className="flex min-h-dvh flex-col justify-center py-20 sm:py-28">
         <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="mb-16 flex flex-col items-center gap-6 text-center">
             <motion.div
@@ -34,7 +34,7 @@ export function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, ease, delay: 0.1 }}
-              className="text-balance font-heading text-4xl font-bold tracking-tight text-foreground sm:text-5xl"
+              className="text-balance font-heading text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl"
             >
               O que dizem nossos clientes
             </motion.h2>

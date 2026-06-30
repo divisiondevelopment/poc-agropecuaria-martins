@@ -9,8 +9,8 @@ const ease = [0.25, 0.46, 0.45, 0.94] as const;
 
 export function About() {
   return (
-    <section className="relative flex min-h-svh flex-col justify-center overflow-hidden bg-background text-foreground">
-      <div className="mx-auto flex w-full max-w-6xl flex-col items-center gap-12 px-4 sm:px-6 lg:flex-row lg:items-end lg:gap-16 lg:px-8">
+    <section className="relative flex min-h-dvh flex-col justify-center overflow-hidden bg-background text-foreground">
+      <div className="mx-auto flex w-full max-w-6xl flex-col items-center gap-10 px-4 pt-20 pb-12 sm:px-6 lg:flex-row lg:items-end lg:gap-16 lg:px-8 lg:py-0">
 
         {/* Portal image — esquerda, alinhado à base */}
         <motion.div
@@ -18,7 +18,7 @@ export function About() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.65, ease }}
-          className="flex-shrink-0 self-end pt-16 lg:w-[42%] lg:pt-0"
+          className="w-[70vw] max-w-[280px] flex-shrink-0 self-center lg:w-[42%] lg:max-w-none lg:self-end"
         >
           {/*
             Portal shape:
@@ -51,9 +51,9 @@ export function About() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.65, ease, delay: 0.12 }}
-          className="relative z-10 flex flex-col items-center pb-16 text-center lg:items-start lg:py-24 lg:text-left"
+          className="relative z-10 flex flex-col items-center text-center lg:items-start lg:py-24 lg:text-left"
         >
-          <h2 className="font-heading mb-6 max-w-lg text-balance text-4xl font-black leading-[1.1] tracking-tight text-foreground sm:text-5xl lg:text-[3rem]">
+          <h2 className="font-heading mb-6 max-w-lg text-balance text-3xl font-black leading-[1.1] tracking-tight text-foreground sm:text-4xl lg:text-[3rem]">
             Recomendado por quem cuida do seu pet há mais de 20 anos
           </h2>
 

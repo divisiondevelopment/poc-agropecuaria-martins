@@ -60,7 +60,7 @@ const categories = [
 export function Categories() {
   return (
     <MotionConfig reducedMotion="user">
-      <section className="flex min-h-svh flex-col justify-center py-20 sm:py-28">
+      <section className="flex min-h-dvh flex-col justify-center py-20 sm:py-28">
         <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
 
           <motion.div
@@ -70,7 +70,7 @@ export function Categories() {
             transition={{ duration: 0.5, ease }}
             className="mb-14 text-center"
           >
-            <h2 className="font-heading text-balance text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
+            <h2 className="font-heading text-balance text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
               Tudo o que seu pet precisa, em um só lugar
             </h2>
           </motion.div>

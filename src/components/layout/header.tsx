@@ -20,9 +20,9 @@ export function Header() {
         scrolled ? "border-b border-border shadow-sm" : ""
       }`}
     >
-      <div className="mx-auto flex h-18 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-3">
-          <span className="font-heading text-lg font-bold tracking-tight text-foreground">
+      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
+        <div className="flex min-w-0 items-center gap-3">
+          <span className="truncate font-heading text-base font-bold tracking-tight text-foreground sm:text-lg">
             {business.name}
           </span>
         </div>

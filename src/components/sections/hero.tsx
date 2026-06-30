@@ -15,7 +15,7 @@ const fadeUp = {
 export function Hero() {
   return (
     <MotionConfig reducedMotion="user">
-      <section className="relative flex min-h-svh flex-col overflow-hidden bg-background text-foreground">
+      <section className="relative flex min-h-dvh flex-col overflow-hidden bg-background text-foreground">
         {/* Logo watermark — grande, sangra pela borda direita; oculto em mobile */}
         <div
           aria-hidden="true"
@@ -32,7 +32,7 @@ export function Hero() {
           />
         </div>
 
-        <div className="mx-auto flex flex-1 w-full max-w-6xl flex-col gap-10 px-4 py-24 sm:px-6 md:flex-row md:items-stretch md:gap-8 md:py-0 lg:px-8">
+        <div className="mx-auto flex flex-1 w-full max-w-6xl flex-col gap-10 px-4 pt-24 pb-16 sm:px-6 md:flex-row md:items-stretch md:gap-8 md:py-0 lg:px-8">
 
           {/* Coluna de texto — h1 lidera, sem badge pill */}
           <motion.div
@@ -44,7 +44,7 @@ export function Hero() {
             <motion.h1
               variants={fadeUp}
               transition={{ duration: 0.55, ease }}
-              className="mb-5 text-balance font-heading text-5xl font-black leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl"
+              className="mb-5 text-balance font-heading text-4xl font-black leading-[1.05] tracking-tight sm:text-5xl lg:text-7xl"
             >
               Tudo para o seu pet, com quem entende do assunto
             </motion.h1>
