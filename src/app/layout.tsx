@@ -18,7 +18,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Martins Agropecuária — Esteio, RS",
+  title: "Agropecuária Martins — Esteio, RS",
   description:
     "Agropecuária em Esteio com rações, remédios e produtos para cães, gatos e pássaros. Atendimento de qualidade desde 2001.",
 };

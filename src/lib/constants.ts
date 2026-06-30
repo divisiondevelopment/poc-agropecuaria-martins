@@ -1,5 +1,5 @@
 export const business = {
-  name: "Martins Agropecuária",
+  name: "Agropecuária Martins",
   tagline: "Cuidando do seu pet com carinho e qualidade desde 2001",
   whatsapp: "5551989570171",
   whatsappLink: "https://wa.me/5551989570171",

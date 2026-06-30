@@ -37,7 +37,7 @@ export function About() {
           >
             <Image
               src="/about-bg.png"
-              alt="Equipe Martins Agropecuária"
+              alt="Equipe Agropecuária Martins"
               fill
               className="object-cover object-top"
               sizes="(max-width: 1024px) 80vw, 42vw"
